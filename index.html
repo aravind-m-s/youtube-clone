@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="navigation-bar bg-white">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap align-items-center justify-content-between p-1 ">
+                <div class="col d-flex align-items-center col-md-auto">
+                    <div><svg style="height:24px; flex-shrink: 0; " viewBox="0 0 24 24"
+                            preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                            style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                            <g class="style-scope yt-icon">
+                                <path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </svg></div>
+                    <img src="assets/youtube.png" alt="" class="ms-2" width="120">
+                </div>
+                <div class="col col-md-6 col-lg-5 d-none d-md-flex align-items-center justify-content-center">
+                    <div class="input-group flex-nowrap">
+                        <input type="text" class="form-control rounded-0" placeholder="Search">
+                        <button class="input-group-text rounded-0">
+                            <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24"
+                                preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                                style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                <g class="style-scope yt-icon">
+                                    <path
+                                        d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z"
+                                        class="style-scope yt-icon"></path>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <ul class="nav col-md-auto">
+                    <li><a href="" class="nav-link px-2">
+                            <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24"
+                                preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                                style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                <g class="style-scope yt-icon">
+                                    <path
+                                        d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"
+                                        class="style-scope yt-icon"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link px-2">
+                            <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24"
+                                preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                                style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                <g class="style-scope yt-icon">
+                                    <path
+                                        d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+                                        class="style-scope yt-icon"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link px-2">
+                            <img src="assets/channel.png" class="profile" alt="" width="30px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Side Bar-->
+
+    <div class="sidebar">
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark" aria-current="page">
+                    <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path d="M4,10V21h6V15h4v6h6V10L12,3Z" class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark" aria-current="page">
+                    <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M9.8,9.8l-3.83,8.23l8.23-3.83l3.83-8.23L9.8,9.8z M13.08,12.77c-0.21,0.29-0.51,0.48-0.86,0.54 c-0.07,0.01-0.15,0.02-0.22,0.02c-0.28,0-0.54-0.08-0.77-0.25c-0.29-0.21-0.48-0.51-0.54-0.86c-0.06-0.35,0.02-0.71,0.23-0.99 c0.21-0.29,0.51-0.48,0.86-0.54c0.35-0.06,0.7,0.02,0.99,0.23c0.29,0.21,0.48,0.51,0.54,0.86C13.37,12.13,13.29,12.48,13.08,12.77z M12,3c4.96,0,9,4.04,9,9s-4.04,9-9,9s-9-4.04-9-9S7.04,3,12,3 M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2 L12,2z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Explore</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark" aria-current="page">
+                    <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g height="24" viewBox="0 0 24 24" width="24" class="style-scope yt-icon">
+                            <path
+                                d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86l-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Shorts</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark" aria-current="page">
+                    <svg style="height:24px; flex-shrink: 0;" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Subscriptions</span>
+                </a>
+            </li>
+            <hr>
+        </ul>
+
+        <ul class="nav nav-footer mb-3">
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Press
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Copyright
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Contact us
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Creators
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Advertise
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Developers
+                </a>
+            </li>
+        </ul>
+
+        <ul class="nav nav-footer mb-3">
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Terms
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Privacy
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Policy&Safety
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    How Youtube Works
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark">
+                    Test New Features
+                </a>
+            </li>
+        </ul>
+
+        <ul class="nav nav-footer mb-3">
+            <li class="nav-item">
+                <a href="" class="nav-link text-dark fw-light">
+                    © 2022 Google LLC
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <!--Main Page-->
+    <div class="page-content">
+        <div class="chip-main">
+            <div class="chip-container d-flex ">
+                <div class="chip">All</div>
+                <div class="chip">JavaScript</div>
+                <div class="chip">HTML`</div>
+                <div class="chip">CSS</div>
+                <div class="chip">Gaming</div>
+                <div class="chip">Flutter</div>
+                <div class="chip">React</div>
+                <div class="chip">Dart</div>
+                <div class="chip">Smartphones</div>
+                <div class="chip">Computer Science</div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-5 py-3">
+            <div class="row ">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple alkjdaskd & s JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/1-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/1-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/3-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/3-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/4-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/4-2.png" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/5-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/5-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <div>CodeWithEric</div>
+                                <div>10M views - 3 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+
+</body>
+
+</html>

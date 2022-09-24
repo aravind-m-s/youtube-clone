@@ -1,0 +1,126 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navigation-bar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.sidebar{
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top:50px;
+    background-color: #fff;
+    overflow-y: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sidebar .nav-link span{
+        padding: 0 15px;
+        vertical-align: bottom;
+        white-space: nowrap;
+        font-size: 15px;
+}
+
+.sidebar .nav-footer {
+    padding-right: 20px;
+    padding-left: 1rem;
+}
+
+.sidebar .nav-footer .nav-link{
+    padding: 0;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+
+.page-content{
+    margin-top: 75px;
+    background-color: #f1f1f1;
+    margin-left: 200px;
+    position: relative;
+}
+
+.chip-main{
+    height: 50px;
+}
+
+.chip-container{
+    height: 52px;
+    position: fixed;
+    top:49px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 15px;
+    z-index:99;
+}
+
+.chip-container .chip{
+    display: inline;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    white-space: nowrap;
+    margin-right: 5px;
+    border-radius:25px;
+    cursor: pointer;
+}
+
+.chip-container .chip:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.card-video{
+    display: block;
+    text-decoration: none;
+
+}
+
+.card-video img{
+    border-radius: 10px;
+}
+
+.card-video h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-video div{
+    color: gray;
+    font-size: 13px;
+}
+
+.card-video .card-video-details img{
+    border-radius: 50%;
+}
+
+@media (max-width:1000px){
+    .sidebar{
+        display: none;
+    }
+    .page-content{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .chip-main{
+        display: none;
+    }
+}
