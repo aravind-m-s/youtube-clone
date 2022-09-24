@@ -16,6 +16,7 @@
 }
 
 .sidebar{
+    display: block;
     width: 200px;
     position: fixed;
     height: 100%;
@@ -118,7 +119,7 @@
     }
     .page-content{
         margin-top: 50px;
-        margin-left: 0;
+        margin-left: 0px;
     }
     .chip-main{
         display: none;

@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+    <script src="script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -24,7 +25,7 @@
         <div class="container-fluid">
             <div class="d-flex flex-wrap align-items-center justify-content-between p-1 ">
                 <div class="col d-flex align-items-center col-md-auto">
-                    <div><svg style="height:24px; flex-shrink: 0; " viewBox="0 0 24 24"
+                    <div onclick="menuclick()"><svg  style="height:24px; flex-shrink: 0; " viewBox="0 0 24 24"
                             preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
                             style="pointer-events: none; display: block; width: 100%; height: 100%;">
                             <g class="style-scope yt-icon">
@@ -88,7 +89,7 @@
 
     <!--Side Bar-->
 
-    <div class="sidebar">
+    <div id="sidebar" class="sidebar">
         <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
                 <a href="#" class="nav-link text-dark" aria-current="page">
@@ -224,7 +225,7 @@
     </div>
 
     <!--Main Page-->
-    <div class="page-content">
+    <div id="mainpage" class="page-content">
         <div class="chip-main">
             <div class="chip-container d-flex ">
                 <div class="chip">All</div>
@@ -243,14 +244,14 @@
         <div class="container-fluid p-5 py-3">
             <div class="row ">
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                    <a href="https://www.youtube.com/watch?v=wqduw9mGA3I" target="_self" class="card card-video border-0 bg-transparent mb-4">
                         <img src="assets/2-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
                                 <img src="assets/2-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple alkjdaskd & s JavaScript...</h4>
+                                <h4>Build simple web environment for HTML ..</h4>
                                 <div>CodeWithEric</div>
                                 <div>10M views - 3 Months ago</div>
                             </div>
@@ -258,59 +259,89 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                    <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4" target="_self" class="card card-video border-0 bg-transparent mb-4">
                         <img src="assets/1-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
                                 <img src="assets/1-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
+                                <h4>Build 15 JavaScript Projects - Vanilla ..</h4>
+                                <div>freecodecamp.org</div>
+                                <div>15M views - 6 Months ago</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                    <a href="https://www.youtube.com/watch?v=d2na6sCyM5Q" target="_self" class="card card-video border-0 bg-transparent mb-4">
                         <img src="assets/3-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
                                 <img src="assets/3-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
+                                <h4>DON'T EVER GIVE UP - Elon Musk</h4>
+                                <div>Chispa Motivation</div>
+                                <div>4M views - 1 year ago</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                    <a href="https://www.youtube.com/watch?v=tCAt8eEKPDc" target="_self" class="card card-video border-0 bg-transparent mb-4">
                         <img src="assets/4-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
                                 <img src="assets/4-2.png" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
+                                <h4>Top 5 programming languages to learn</h4>
+                                <div>Cleaver Programmer</div>
+                                <div>2.1M views - 2 year ago</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                    <a href="https://www.youtube.com/watch?v=46cXFUzR9XM" target="_self" class="card card-video border-0 bg-transparent mb-4">
                         <img src="assets/5-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
                                 <img src="assets/5-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <h4>Bella Ciao Full Song | La Casa De Papel</h4>
+                                <div>Netflix India</div>
+                                <div>74M views - 2 Years ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=0JCUH5daCCE" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/6-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/6-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>UI design for Coders</h4>
+                                <div>Traversy media</div>
+                                <div>252K views - 2 Years ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=wqduw9mGA3I" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/2-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build simple web environment for HTML ..</h4>
                                 <div>CodeWithEric</div>
                                 <div>10M views - 3 Months ago</div>
                             </div>
@@ -318,14 +349,88 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
+                    <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/1-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/1-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Build 15 JavaScript Projects - Vanilla ..</h4>
+                                <div>freecodecamp.org</div>
+                                <div>15M views - 6 Months ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=d2na6sCyM5Q" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/3-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/3-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>DON'T EVER GIVE UP - Elon Musk</h4>
+                                <div>Chispa Motivation</div>
+                                <div>4M views - 1 year ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=tCAt8eEKPDc" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/4-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/4-2.png" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Top 5 programming languages to learn</h4>
+                                <div>Cleaver Programmer</div>
+                                <div>2.1M views - 2 year ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=46cXFUzR9XM" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/5-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/5-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>Bella Ciao Full Song | La Casa De Papel</h4>
+                                <div>Netflix India</div>
+                                <div>74M views - 2 Years ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=0JCUH5daCCE" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/6-1.jpg" class="img-fluid" alt="">
+                        <div class="card-video-details d-flex mt-2">
+                            <div class="pe-3">
+                                <img src="assets/6-2.jpg" width="40" alt="">
+                            </div>
+                            <div>
+                                <h4>UI design for Coders</h4>
+                                <div>Traversy media</div>
+                                <div>252K views - 2 Years ago</div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="https://www.youtube.com/watch?v=wqduw9mGA3I" target="_self" class="card card-video border-0 bg-transparent mb-4">
                         <img src="assets/2-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
                                 <img src="assets/2-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
+                                <h4>Build simple web environment for HTML ..</h4>
                                 <div>CodeWithEric</div>
                                 <div>10M views - 3 Months ago</div>
                             </div>
@@ -333,157 +438,53 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/1-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
+                                <img src="assets/1-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
+                                <h4>Build 15 JavaScript Projects - Vanilla ..</h4>
+                                <div>freecodecamp.org</div>
+                                <div>15M views - 6 Months ago</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/watch?v=d2na6sCyM5Q" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/3-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
+                                <img src="assets/3-2.jpg" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
+                                <h4>DON'T EVER GIVE UP - Elon Musk</h4>
+                                <div>Chispa Motivation</div>
+                                <div>4M views - 1 year ago</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/watch?v=tCAt8eEKPDc" target="_self" class="card card-video border-0 bg-transparent mb-4">
+                        <img src="assets/4-1.jpg" class="img-fluid" alt="">
                         <div class="card-video-details d-flex mt-2">
                             <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
+                                <img src="assets/4-2.png" width="40" alt="">
                             </div>
                             <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
+                                <h4>Top 5 programming languages to learn</h4>
+                                <div>Cleaver Programmer</div>
+                                <div>2.1M views - 2 year ago</div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="card card-video border-0 bg-transparent mb-4">
-                        <img src="assets/2-1.jpg" class="img-fluid" alt="">
-                        <div class="card-video-details d-flex mt-2">
-                            <div class="pe-3">
-                                <img src="assets/2-2.jpg" width="40" alt="">
-                            </div>
-                            <div>
-                                <h4>Build simple web environment for html,css & JavaScript...</h4>
-                                <div>CodeWithEric</div>
-                                <div>10M views - 3 Months ago</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
-
+            </div>
+        </div>
+    </div>     
 </body>
 
 </html>
